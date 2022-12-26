@@ -7,14 +7,15 @@
   font-size: 96px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .lead__title {
     max-width: calc(288 / 320 * 100%);
   }
-}
+} */
 
 @media (min-width: 320px) and (max-width: 768px) {
   .lead__title {
+    max-width: calc(288 / 320 * 100%);
     font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
     line-height: 1.15;
   }
